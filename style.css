@@ -7,5 +7,17 @@ a {font-size: 1.5rem;}
 footer {
   border-style: solid;
   backdrop-filter:blur(10px);
-  border-color:aliceblue
+  border-color:aliceblue;
+  position:fixed;
+  bottom: 0px;
+  border-radius: 10px;
+}
+header {
+  position: relative;
+  top: 20px;
+}
+#divfotfooter1 {
+  border-style: solid;
+  border: 10px;
+  border-color: blue;
 }
