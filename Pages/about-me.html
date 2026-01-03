@@ -5,18 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    div {
+    div:active {
       width: 100px;
       height: 100px;
+      text-align: center;
       border-style: solid;
       border-color: black;
       animation: mySlide;
       animation-duration: 5s;
       animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-delay: 0s;
+      animation-play-state: running;
     }
     @keyframes mySlide{
-      from{margin-left: 100%;}
-      to{margin-left: 0%;}
+      from{margin-left: 0%;}
+      to{margin-left: 100%;}
     }
   </style>
 </head>
